@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
 import FitnessPage from './Pages/FitnessPage'; 
 // import SignUp from './Pages/SignUp';
@@ -29,7 +29,6 @@ function App() {
               </div>
             }
           />
-           {/* <Route path="/signup" element={<SignUp />} /> */}
           <Route path="/user" element={<FitnessPage />} />
         </Routes>
       </div>
